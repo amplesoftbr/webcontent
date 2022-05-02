@@ -1,0 +1,88 @@
+.slide-in{
+width: 100%;
+}
+
+.titulos-inicio{
+margin-left: 0;
+margin-right: 0;
+}
+
+.grade-produtos{
+grid-template-columns: repeat(2, 2fr);
+grid-template-rows: repeat(4, 1fr);
+
+}
+
+.textos-descricao{
+font-size:16px;
+line-height: 1.30;
+}
+
+.grade-modulos{
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 6fr);
+}
+
+     #main-intro{
+        height:fit-content;
+    }
+  .author-intro-widgets .author-list, .author-intro-widgets .author-list .widget {
+    width: 100%;
+}
+#brand-services-wrap {
+    padding: 20px 0;
+}
+.author-intro-widgets, #serv-tile {
+    grid-template-columns: repeat(2,1fr);
+}
+#intro-author-heading, .author-intro-widgets {
+    width: 100%;
+}
+#intro-author-photo{
+        display:none;
+    }
+   .post-snippet {
+    font-size: 15px;
+margin: 0;
+}
+.index-post .post-info > h2 {
+    font-size: 22px;
+}
+.author-intro-widgets {
+    margin: 0;
+}
+     #social-footer{
+        width:100%;
+        margin:0 0 10px
+    }
+     .social-footer ul li{
+        margin:0 7px
+    }
+     #footer-copyright .copyright-area{
+        width:100%;
+        text-align:center;
+        overflow:hidden;
+		font-size: 0px
+    }
+
+.copyright-reform{
+    width:100%;
+    text-align:center;
+    overflow:hidden;
+	color:#ECECEC;
+	font-size:13px;
+	
+}
+
+.top-bar-nav {
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.top-bar-nav ul li {
+    float: none;
+    display: inline-block;
+}
+     .errorWrap{
+        padding:60px 0 80px
+    }
