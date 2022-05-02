@@ -1,3 +1,11 @@
+#parallax-menu a{
+  color: #FFF;
+}
+
+#parallax-menu a:visited{
+  color: #FFF;
+}
+
 .botoes-inicio{
   display:flex;
   column-gap: 10px;
