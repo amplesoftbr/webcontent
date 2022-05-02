@@ -28,3 +28,11 @@ grid-template-rows: repeat(5, 6fr);
 .grid-posts {
     grid-template-columns: 1fr;
 }
+
+.slide-in{
+width: 100%;
+}
+
+#main-intro{
+height:auto
+}
