@@ -1,11 +1,3 @@
-/* CORES DO SITE */
---cor-laranjado: #feac0e;
---cor-cabecalho: #041E27;
---cor-azulado: #2A8BAF;
---branco: #FFFFFF;
---preto: #000000;
-
-/* PROPRIEDADES BOTÕES */
 .botoes-inicio{
   display:flex;
   column-gap: 10px;
