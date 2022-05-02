@@ -413,7 +413,7 @@ a{
     color:$(main.color)
 }
 a:visited {
-color:red;
+color:#FFF;
 }
 a:hover{
     color:$(title.color)
