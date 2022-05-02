@@ -1,0 +1,38 @@
+
+.slide-in{
+width: 100%;
+}
+
+.botoes-inicio{
+display:grid;
+flex-wrap:no-wrap;
+width:100%;
+}
+
+.intro-action a{
+width:100%;
+}
+
+ .intro-snippet {
+    font-size: 16px;
+	margin: 18px 0 18px 0;
+}
+.intro-title {
+    font-size: 27px;
+    margin: 0;
+}
+.intro-action a {
+    margin: 10px 0 0;
+}
+
+}
+@media screen and (max-width: 769px) {
+#slider-wrapper .PopularPosts .main-slider {
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media screen and (max-width: 681px) {
+#slider-wrapper .PopularPosts .main-slider {
+        grid-template-columns: 1fr;
+    grid-gap: 0px;
+}
