@@ -1,0 +1,26 @@
+     #intro-services .widget{
+        width:100%;
+        margin:50px 0 0
+    }
+     #intro-services .widget:first-child{
+        margin:0
+    }
+     #contact-left,#contact-right{
+        width:100%
+    }
+     #contact-left .widget:last-child{
+        margin:0 0 35px
+    }
+     .post-labels{
+        width:100%;
+        margin:0 0 25px
+    }
+     .post-labels a{
+        margin:0 10px 5px 0
+    }
+     .post-share{
+        float:left
+    }
+     .share-links li{
+        margin:5px 5px 0 0
+    }
