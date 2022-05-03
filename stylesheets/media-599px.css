@@ -37,7 +37,7 @@
 }
 
 .slide-in .pointer{
-  top: 0%;
+  top: -1%;
 }
 
 .botoes-inicio{
@@ -46,4 +46,12 @@
 
 #main-intro .widget{
   height: 75%;
+}
+
+#main-intro{
+height: auto;
+}
+
+.slide-in{
+width: 100%;
 }
