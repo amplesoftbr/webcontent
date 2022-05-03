@@ -3213,86 +3213,11 @@ float: left;
  .post-image-wrap:hover .post-content{
   
 }
- .index-post .post-info{
-    display: block;
-    float:left;
-    width:100%;
-    padding: 15px 30px 35px;
-    box-sizing: border-box;
-    min-height: 200px;
-}
- .index-post .post-info > h2{
-    font-size:24px;
-    color:$(title.color);
-    font-weight:600;
-    line-height:1.5em;
-    margin:0 0 10px
-}
- .index-post .post-info > h2 a{
-color:$(title.color);
-}
- .post-meta{
-    color:#989898;
-    font-weight:400;
-    font-size: 11px;
-    text-transform:  capitalize;
-    padding:0;
-}
-.index-post .post-meta .post-author{
- 
-}
-.index-post .post-meta .post-author:before {
 
-}
- .post-meta .post-date{
-    display:inline-block;
-    margin:0 7px 0 0
-}
-.post-meta .post-author, .post-meta .post-date {
-    float: left;
-    display: none;
-    margin: 0 10px 0 0;
-}
-.post-meta .post-author:before, .post-meta .post-date:before, .post-meta .post-tag:before {
-    font-family: FontAwesome;
-    font-weight: 400;
-    margin: 0 3px 0 0;
-}
-.post-meta .post-author:before {
-    content: '\f007';
-}
-.post-meta .post-date:before {
-    content: '\f017';
-}
-.post-meta .post-tag:before {
-    content: '\f022';
-}
-.post-meta a {
-    color: #989898;
-    transition: color .17s;
-}
-.post-snippet {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    font-size: 15px;
-    line-height: 1.6em;
-    font-weight: 400;
-    margin: 7px 0 0;
-color: #5a5a5a;
-}
  .widget iframe,.widget img{
     max-width:100%
 }
- .item-post h1.post-title{
-    font-size:27px;
-    color:$(title.color);
-    line-height:1.5em;
-    font-weight:700;
-    position:relative;
-    display:block;
-    margin:0 0 15px
-}
+
  .static_page .item-post h1.post-title{
     margin:0
 }
@@ -3314,17 +3239,13 @@ color: #5a5a5a;
  .item-post .post-body img{
     max-width:100%
 }
- .post-footer{
-    position:relative;
-    float:left;
-    width:100%;
-    margin:35px 0 40px
-}
+
  .post-labels{
     float:left;
     height:auto;
     position:relative
 }
+
  .post-labels a{
     float:left;
     height:26px;
