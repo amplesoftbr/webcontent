@@ -11,6 +11,14 @@
   --preto: ;
 }
 
+.bt-menu-mobile{
+  float: right;
+  padding-top: 22px;
+  font-size: 23px;
+  color: #FFF;
+  display: none;
+}
+
 .top-bar-nav{
     position:relative;
     float:right;
