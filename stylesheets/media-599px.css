@@ -59,7 +59,7 @@ margin: 0;
 }
 
 .slide-in .pointer{
-  top: -25%;
+  bottom: 1px;
 }
 
 .botoes-inicio{
