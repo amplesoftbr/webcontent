@@ -32,18 +32,6 @@
     color:$(main.color)
 }
 
-#parallax-menu a{
-  color: #FFF;
-}
-
-#parallax-menu a:visited{
-  color: #FFF;
-}
-
-#principal-menu a{
-  color: #FFF;
-}
-
 .botoes-inicio{
   display:flex;
   column-gap: 10px;
@@ -872,7 +860,6 @@ position:fixed;
 }
 .scrolling-menu ul > li > a {
     position: relative;
-    color: $(main.menu.color);
     font-size: 13px;
     font-weight: 600;
     text-transform: none;
