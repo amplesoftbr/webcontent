@@ -31,6 +31,8 @@ margin-left: -20px;
   font-size: 23px;
   color: #FFF;
   display: none;
+  background: none;
+  border-color: none;
 }
 
 .top-bar-nav{
