@@ -217,7 +217,7 @@ padding-bottom:50px;
 }
 
 .diferenciais {
-padding: 5px 0px 0px 0px;
+padding: 10px 0px 0px 0px;
 text-align: left;
 }
 
@@ -1100,14 +1100,15 @@ background-color: #282828;
     margin: 0;
     order: 13;
     padding:0 15px;
-    row-gap: 18px;
+    row-gap: 27px;
 }
 
  .intro-title{
-    font-size:35px;
+    font-size:41px;
     color:$(intro.title);
     font-weight:900;
     margin:0;
+    line-height: 1.20;
 }
 
  .intro-snippet{
