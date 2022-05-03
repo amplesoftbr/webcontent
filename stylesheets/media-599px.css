@@ -59,7 +59,7 @@ margin: 0;
 }
 
 .slide-in .pointer{
-  bottom: 1px;
+  top: -50%;
 }
 
 .botoes-inicio{
@@ -73,10 +73,6 @@ margin: 0;
 #main-intro .widget{
   height: 550px;
 	margin: 0 0px;
-}
-
-.slide-in{
-width: 100%;
 }
 
 .grid-posts {
@@ -95,23 +91,19 @@ width: 100%;
 }
 
 .grade-modulos{
- grid-template-columns: repeat(2, 1fr);
- grid-template-rows: repeat(5, 6fr);
- grid-column-gap: 10px;
- grid-row-gap: 10px;
- padding-top: 0;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(5, 6fr);
+   grid-column-gap: 10px;
+   grid-row-gap: 10px;
+   padding-top: 0;
 
-}
-
-.slide-in{
- width: 100%;
 }
 
 .titulos-inicio{
-	font-size:24px;
-	line-height: 1.35;
-	padding: 18px;
-	margin: 0;
+  font-size:24px;
+  line-height: 1.35;
+  padding: 18px;
+  margin: 0;
 }
 
 #botao-vendas-online{
@@ -119,36 +111,36 @@ top: 200px;
 padding-top: 0;
 }
 
-#header-wrap, .home #header-wrap, .item #header-wrap, #intro-author-wrap .container, #serv-tile-wrap .container, #contact-area > .container, #footer-copyright > .container, #top-bar .container, .counter-box .container, .featured-posts, #testimonial-wrap .container, #brand-services-wrap .container, #editorial-wrap .container, .project-head{
-        box-sizing:border-box;
-        padding:0 20px
+#header-wrap, .home #header-wrap, .item #header-wrap, #intro-author-wrap .container, #serv-tile-wrap .container, #footer-copyright > .container, #top-bar .container, .counter-box .container, .featured-posts, #testimonial-wrap .container, #brand-services-wrap .container, #editorial-wrap .container, .project-head{
+  box-sizing:border-box;
+  padding:0 20px
     }
 
 #serv-tile{
-grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1,1fr);
 }
 
 .intro-content{
-row-gap: 15px;
+  row-gap: 15px;
 }
 
 .modulos1, .modulos2, .modulos3, .modulos4, .modulos5, .modulos6, .modulos7, .modulos8, .modulos9, .modulos10, .modulos11, .modulos12{
-padding: 10px;
+  padding: 10px;
 }
 
 .textos-descricao{
-font-size: 15px;
+  font-size: 15px;
 }
 
 #serv-tile-wrap{
-padding: 0;
+  padding: 0;
 }
 
 #serv-tile-wrap .container{
-padding: 0;
+  padding: 0;
 }
 
 .grade-produtos{
-grid-template-columns: repeat(2, 2fr);
-grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(4, 1fr);
 }
