@@ -4067,39 +4067,9 @@ grid-template-columns: repeat(1,1fr);
      .item #content-wrapper{
         margin:40px 0
     }
-.serv-tile-box-info {
-    text-align: center;
-}
-.email-folower .email-letter-text, .email-folower .follow-by-email-inner {
-    float: none;
-    width: 100%;
-    padding: 0;
-}
- ul.related-posts{
-        margin:0
-    }
-     .related-posts .related-item{
-        width:100%;
-        padding:0;
-        margin:20px 0 0
-    }
-     .related-posts .item-0{
-        margin:0
-    }
-     .related-posts .post-image-link{
-        width:75px;
-        height:60px;
-        float:left;
-        margin:0 12px 0 0
-    }
-     .related-posts .post-title{
-        font-size:15px;
-        overflow:hidden;
-        margin:0 0 5px
-    }
+
 #brand-services-wrap li {
     width: calc(100% / 2);
-}
 }
 
 .grade-modulos {
@@ -4119,43 +4089,17 @@ padding: 10px;
 
 }
 
+.index-post{
+width:100%
 }
 
-     .intro-title,.author-title,.head-text .widget-title > h3{
-        font-size:27px
-    }
-     .index-post{
-        width:100%
-    }
-     
-     .errorWrap h3{
-        font-size:120px
-    }
-     .errorWrap h4{
-        font-weight:600
-    }
-}
-#editorial-box {
-    clear: both;
-}
-
-.firstcharacter{
-    float:left;
-    color:#27ae60;
-    font-size:75px;
-    line-height:60px;
-    padding-right:8px;
-}
- .post-body p{
-    margin-bottom:25px
-}
  .post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5,.post-body h6{
     color:#000;
-    line-height:1.3em;
-    margin:0 0 20px
+    line-height:1.1em;
 }
+
  .post-body img{
-    height:auto!important
+    height:auto;
 }
 
  .alert-message{
@@ -4203,26 +4147,4 @@ padding: 10px;
  .alert-message.alert-error:before{
     content:&#39;\f057&#39;;
     color:rgba(231,76,60,1)
-}
-
- .post-body pre,pre.code-box{
-    position:relative;
-    display:block;
-    background-color:rgba(155,155,155,0.05);
-    font-family:Monospace;
-    font-size:13px;
-    color:#47474a;
-    white-space:pre-wrap;
-    line-height:1.4em;
-    padding:15px;
-    margin:0;
-    border:1px solid rgba(155,155,155,0.1);
-    border-radius:3px
-}
- .post-body .google-auto-placed{
-    margin:25px 0
-}
-  #hidden-widgets-wrap,.hidden-widgets{
-    display:none;
-    visibility:hidden
 }
