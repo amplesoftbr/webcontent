@@ -10,10 +10,6 @@
   color: #FFF;
 }
 
-#principal-menu a:visited{
-  color: #FFF;
-}
-
 .botoes-inicio{
   display:flex;
   column-gap: 10px;
@@ -61,7 +57,7 @@ display: none;
     }
 	
     .botao-vendas a:visited {
-	color: #000000;
+	color: #000;
 }
 
     .botao-vendas a:hover{
