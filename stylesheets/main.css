@@ -15,9 +15,10 @@
 display: flex;
 position: absolute;
 top: 67px;
-width: 100%;
+width: 100vh;
 height: calc(100vh - 67px);
-background: #000;
+background: #FF0000;
+margin-left: -20px;
 }
 
 .bt-menu-mobile{
