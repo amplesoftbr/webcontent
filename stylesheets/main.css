@@ -1,5 +1,3 @@
-h1,h2,h3,h4,h5,h6 {font-family: 'Manrope', sans-serif;font-weight:500;}
-
 .top-bar-nav{
     position:relative;
     float:right;
@@ -392,6 +390,7 @@ transform: rotate(360deg);
 transform: rotate(360deg);
 }
 }
+
 @keyframes loader-inner {
 0% {
 height: 0%;
@@ -410,6 +409,7 @@ height: 100%;
 100% {
 height: 0%;
 }
+}
 
 a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{
     padding:0;
@@ -425,6 +425,8 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
    box-sizing: border-box;
 }
 
+h1,h2,h3,h4,h5,h6 {font-family: 'Manrope', sans-serif;font-weight:500;}
+	
 form,textarea,input,button{
     -webkit-appearance:none;
     -moz-appearance:none;
