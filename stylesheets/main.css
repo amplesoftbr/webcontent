@@ -1,3 +1,16 @@
+:root {
+  --escura-primaria: ;
+  --escura-secundaria: ;
+  --clara-primaria: ;
+  --clara-secundaria: ;
+  --color-texto: ;
+  --cor-titulos: ;
+  --laranjado-botoes: ;
+  --laranjado-botoes-hover: ;
+  --branco: ;
+  --preto: ;
+}
+
 .top-bar-nav{
     position:relative;
     float:right;
