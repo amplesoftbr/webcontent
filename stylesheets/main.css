@@ -865,9 +865,10 @@ position:fixed;
     text-transform: none;
     display: inline-block;
     text-decoration: none;
-    padding: 7px 11px;
+    padding: 11px 12px;
     margin: 16px 0 0 5px;
-	border-radius: 25px;
+    border-radius: 25px;
+    color: #FFF;
 	
 }
 
