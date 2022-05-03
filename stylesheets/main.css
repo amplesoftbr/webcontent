@@ -12,17 +12,14 @@
 }
 
 .mobile-descer{
-visibility: hidden;
-height: 0vh;
-overflow-y: hidden;
-transition: 0.2s;
+display: none;
 }
 
 #nav.active .mobile-descer{
-visibility: visible;
+display: flex;
 position: absolute;
 top: 67px;
-width: 107%;
+width: 100vh;
 height: calc(100vh - 67px);
 background: #FF0000;
 margin-left: -20px;
