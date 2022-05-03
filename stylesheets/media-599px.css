@@ -43,3 +43,7 @@
 .botoes-inicio{
   display: grid;
 }
+
+#main-intro .widget{
+  height: 75%;
+}
