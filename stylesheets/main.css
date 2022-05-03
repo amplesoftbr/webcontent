@@ -1,3 +1,5 @@
+h1,h2,h3,h4,h5,h6 {font-family: 'Manrope', sans-serif;font-weight:500;}
+
 .top-bar-nav{
     position:relative;
     float:right;
@@ -326,16 +328,14 @@ color: #2A8BAF;
 	transition: 0.1s;
     }
 
- /* PRELOADER */
 ul.no-posts {
     text-align: center;
 }
+
 html .home {
     overflow-x: hidden;
 }
-#google_translate_element {
-    clear: both;
-}
+
 #preloader {
 position: fixed;
 z-index: 1800;
@@ -348,15 +348,18 @@ height: 100%;
 background-color: #fff;
 
 }
+
 .no-js #preloader,
 .oldie #preloader {
 display: none
 }
+
 #loader {
 position: absolute;
 top: calc(50% - 1.25em);
 left: calc(50% - 1.25em);
 }
+
 .loader-main {
 display: inline-block;
 width: 30px;
@@ -365,6 +368,7 @@ position: relative;
 border: 4px solid #fff;
 top: 50%;
 }
+
 .loader-inner {
 vertical-align: top;
 display: inline-block;
@@ -398,13 +402,15 @@ height: 0%;
 50% {
 height: 100%;
 }
+	
 75% {
 height: 100%;
 }
+	
 100% {
 height: 0%;
 }
-}
+
 a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{
     padding:0;
     border:0;
@@ -413,44 +419,54 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
     background:0 0;
     text-decoration:none
 }
+
 *{
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
 }
+
 form,textarea,input,button{
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
     border-radius:0
 }
+
 dl,ul{
     list-style-position:inside;
     font-weight:400;
     list-style:none
 }
+
 ul li{
     list-style:none
 }
 caption,th{
     text-align:center
 }
+
 img{
     border:none;
     position:relative
 }
+
 a,a:visited{
     text-decoration:none
 }
+
 .post-body a:visited {
 color:#000;
 }
+
 .clearfix{
     clear:both
 }
+
 .section,.widget,.widget ul{
     margin:0;
     padding:0
 }
+
 a{
     color:#000;
 }
@@ -462,28 +478,32 @@ a img{
 abbr{
     text-decoration:none
 }
+
 .CSS_LIGHTBOX{
     z-index:999999!important
 }
+
 .separator a{
     clear:none!important;
     float:none!important;
     margin-left:0!important;
     margin-right:0!important
 }
+
 #navbar-iframe,.widget-item-control,a.quickedit,.home-link,.feed-links{
     display:none!important
 }
+
 .center{
-    display:table;
-    margin:0 auto;
-    position:relative
+   display:table;
+   margin:0 auto;
+   position:relative
 }
+
 .widget > h2,.widget > h3{
     display:none
 }
-h1,h2,h3,h4,h5,h6 {font-family: 'Manrope', sans-serif;font-weight:500;}
-/*-- Body Content CSS --*/
+
  body{
     background-color:#fff;
     font-family:'Manrope',sans-serif;
@@ -494,17 +514,18 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Manrope', sans-serif;font-weight:500;}
     margin:0;
     padding:0
 }
+
  .row{
   width:1140px
 
 }
 
  .titulos-inicio{
-	font-size:40px;
-	padding-top: 45px;
-	padding-bottom: 25px;
-	margin-left: 70px;
-	margin-right: 70px;
+    font-size:40px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
  #content-wrapper{
@@ -514,36 +535,38 @@ h1,h2,h3,h4,h5,h6 {font-family: 'Manrope', sans-serif;font-weight:500;}
     margin:0;
     background-color: #FFF;
 }
+
 .home #content-wrapper {
  margin:0;
  padding-bottom:35px;
 }
+
  .item #content-wrapper{
     margin:40px 0;
     background:#ffffff;
 }
+
  #content-wrapper > .container{
     position:relative;
     margin:0 auto
 }
+
  #main-wrapper{
     overflow:hidden;
     padding:0;
     margin:0 -7px
 }
 
-#main-intro{
-
-}
 .index #main-wrapper {
     overflow: visible;
     float: left;
     width: 100%;
     margin: 0;
 }
+
  .item #main-wrapper{
     margin:0;
-float: left;
+    float: left;
     overflow: hidden;
     width: 66.66666667%;
     box-sizing: border-box;
@@ -551,69 +574,24 @@ float: left;
     padding: 0 15px;
     margin: 0;
 }
- #sidebar-wrapper{
-  display:none;
-   float: right;
-    overflow: hidden;
-    width: 33.33333333%;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    padding: 0 15px;
-}
-.item #sidebar-wrapper {
-display:block;
-}
-.sidebar .widget{
-position:relative;
-overflow:hidden;
-background-color:#fff;
-box-sizing:border-box;
-padding:0;
-margin:0 0 35px
-}
-.sidebar .widget-title{
-position:relative;
-float:left;
-width:100%;
-height:32px;
-background-color:#f0f0f0;
-display:block;
-margin:0 0 20px
-}
-.sidebar .widget-title > h3{
-position:relative;
-display:block;
-height:32px;
-font-size:12px;
-color:#333333;
-font-weight:700;
-line-height:32px;
-text-align:center;
-text-transform:uppercase;
-padding:0 15px;
-margin:0;
-border-radius:2px 2px 0 0
-}
-.sidebar .widget-content{
-float:left;
-width:100%;
-margin:0
-padding: 0 0 0 0px;
-}
+
  .list-label li{
     position:relative;
     display:block;
     padding:8px 0;
     border-top:1px dotted #eaeaea
 }
+
  .list-label li:first-child{
     padding:0 0 8px;
     border-top:0
 }
+
  .list-label li:last-child{
     padding-bottom:0;
     border-bottom:0
 }
+
  .list-label li a{
     display:block;
     color:$(title.color);
@@ -622,6 +600,7 @@ padding: 0 0 0 0px;
     text-transform:capitalize;
     transition:color .17s
 }
+
  .list-label li a:before{
     content:"\f105";
     float:left;
@@ -632,19 +611,23 @@ padding: 0 0 0 0px;
     margin:0 3px 0 0;
     transition:color .17s
 }
+
  .list-label li a:hover{
     color:$(main.color)
 }
+
  .list-label .label-count{
     position:relative;
     float:right;
     font-weight:400
 }
+
  .cloud-label li{
     position:relative;
     float:left;
     margin:0 5px 5px 0
 }
+
  .cloud-label li a{
     display:block;
     height:26px;
@@ -658,75 +641,13 @@ padding: 0 0 0 0px;
     border-radius:3px;
     transition:all .17s ease
 }
+
  .cloud-label li a:hover{
     color:$(main.color)
 }
+
  .cloud-label .label-count{
     display:none
-}
- .sidebar .FollowByEmail > .widget-title > h3{
-    margin:0
-}
- .FollowByEmail .widget-content{
-    position:relative;
-    overflow:hidden;
-    background-color:$(main.color);
-    font-weight:400;
-    text-align:center;
-    box-sizing:border-box;
-    padding:20px
-}
- .FollowByEmail .widget-content > h3{
-    font-size:18px;
-    color:#fff;
-    font-weight:700;
-    margin:0 0 13px
-}
- .FollowByEmail .before-text{
-    font-size:13px;
-    color:#fff;
-    line-height:1.4em;
-    margin:0 0 15px;
-    display:block;
-    padding:0 15px;
-    overflow:hidden
-}
- .FollowByEmail .follow-by-email-inner{
-    position:relative
-}
- .FollowByEmail .follow-by-email-inner .follow-by-email-address{
-    width:100%;
-    height:34px;
-    color:#888;
-    font-size:11px;
-    font-family:inherit;
-    text-align:center;
-    padding:0 10px;
-    margin:0 0 10px;
-    box-sizing:border-box;
-    border:1px solid #eaeaea;
-    transition:ease .17s
-}
- .FollowByEmail .follow-by-email-inner .follow-by-email-address:focus{
-    border-color:rgba(0,0,0,0.1)
-}
- .FollowByEmail .follow-by-email-inner .follow-by-email-submit{
-    width:100%;
-    height:34px;
-    font-family:inherit;
-    font-size:11px;
-    color:#fff;
-    background-color:$(dark.color);
-    text-transform:uppercase;
-    text-align:center;
-    font-weight:700;
-    cursor:pointer;
-    margin:0;
-    border:0;
-    transition:opacity .17s
-}
- .FollowByEmail .follow-by-email-inner .follow-by-email-submit:hover{
-    opacity:.8
 }
 
  .Text{
