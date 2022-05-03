@@ -14,7 +14,8 @@
 .sombra-menu-mobile{
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%); 
-  display: none;
+  visibility: hidden;
+  transition: 0.2s;
 }
 
 .mobile-descer{
@@ -33,7 +34,7 @@
 }
 
 #nav.active .sombra-menu-mobile{
-  display: flex;
+  visibility: visible;
   position: absolute;
   z-index: 999;
   top: 67px;
