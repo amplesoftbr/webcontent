@@ -12,6 +12,10 @@
 }
 
 .mobile-descer{
+
+}
+
+nav.active #menu-movel{
 display: flex;
 position: absolute;
 top: 67px;
