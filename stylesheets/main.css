@@ -13,6 +13,8 @@
 
 .mobile-descer{
 display: none;
+width: 0vh;
+transition: 1s;
 }
 
 #nav.active .mobile-descer{
