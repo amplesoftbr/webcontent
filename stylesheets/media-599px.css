@@ -22,6 +22,24 @@
   font-size: 30px;
 }
 
+.intro-action a{
+  margin: 15px 0 0;
+  width: 100%
+}
+
+.botao-vamos-comecar a{
+  margin: 2px 0 0;
+  width: 100%
+}
+
 .intro-snippet{
   font-size: 15px;
+}
+
+.slide-in .pointer{
+  top: 0%;
+}
+
+.botoes-inicio{
+  display: grid;
 }
