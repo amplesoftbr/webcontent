@@ -4072,23 +4072,6 @@ grid-template-columns: repeat(1,1fr);
     width: calc(100% / 2);
 }
 
-.grade-modulos {
-grid-template-columns: repeat(2, 1fr);
-width: auto;
-grid-column-gap: 7px;
-grid-row-gap: 12px;
-margin: 0;
-margin-top: 15px;
-margin-bottom: 15px;
-padding: 0;
-align-itens: center;
-}
-
-.modulos1, .modulos2, .modulos3, .modulos4, .modulos5, .modulos6, .modulos7, .modulos8, .modulos9, .modulos10, .modulos11, .modulos12 {
-padding: 10px;
-
-}
-
 .index-post{
 width:100%
 }
