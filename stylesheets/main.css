@@ -2974,178 +2974,11 @@ background-color:$(main.color);
 color:#fff;
 border-color:$(main.color)
 }
-@keyframes fadeInLeft {
-     from{
-        opacity:0;
-        transform:translate3d(-30px,0,0)
-    }
-     to{
-        opacity:1;
-        transform:none
-    }
-}
- @keyframes fadeOutLeft {
-     from{
-        opacity:1
-    }
-     to{
-        opacity:0;
-        transform:translate3d(-30px,0,0)
-    }
-}
- @keyframes fadeInRight {
-     from{
-        opacity:0;
-        transform:translate3d(30px,0,0)
-    }
-     to{
-        opacity:1;
-        transform:none
-    }
-}
- .fadeInRight{
-    animation-name:fadeInRight
-}
- @keyframes fadeOutRight {
-     from{
-        opacity:1
-    }
-     to{
-        opacity:0;
-        transform:translate3d(30px,0,0)
-    }
-}
- .fadeOutRight{
-    animation-name:fadeOutRight
-}
- #testimonial-wrap{
-    display:none;
-    float:left;
-    width:100%;
-    margin:0 0 75px
-}
- #testimonial-wrap .container{
-    position:relative;
-    margin:0 auto
-}
- #testimonial{
-    float:left;
-    width:100%;
-    margin:0
-}
- #testimonial .widget{
-  position: relative;
-    float: left;
-    width: 100%;
-overflow: hidden;
-    padding: 15px;
-    box-sizing: border-box;
-}
- #testimonial .widget:nth-child(2), #testimonial .widget:nth-child(4){
-}
- .testi-avatar{
-    float:left;
-    width:45px;
-    height:45px;
-    overflow:hidden;
-border-radius:50%;
-    margin:0 15px 0 0
-}
- .testi-avatar img{
-    display:block;
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    color:transparent;
-    margin:0
-}
- .testi-info{
-    overflow:hidden
-}
- .testi-title{
-    font-size:20px;
-    color:#443f45;
-    font-weight:700;
-    margin:0 0 3px
-}
- .testi-meta{
-    font-size:12px;
-    color:#999999
-}
-.testi-info-quotes {
-    margin-bottom: 26px;
-}
- .testi-snippet{
-       font-size: 15px;
-    line-height: 1.5625;
-    color: #6a6a6a;
-    padding: 15px 0;
-    margin:0;
-    font-style: italic;
-    font-family: cursive;
-    letter-spacing: 0.5px;
-}
-.testi-snippet:before {
-    content: '\f10d';
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin-right: 10px;
-    color:$(main.color);
-} 
-.testi-snippet:after {
-    content: '\f10e';
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin-left: 10px;
-   color:$(main.color);
-}
-#testimonial .widget:nth-child(2) .testi-snippet, #testimonial .widget:nth-child(4) .testi-snippet {
-    background-color: #e22310;
-    border-color: #d41f0d;
-}
-
 
  .main .widget{
-    position:relative
+    position:relative;
 }
- .queryMessage{
-    overflow:hidden;
-    color:$(title.color);
-    font-size:13px;
-    font-weight:400;
-   padding: 10px;
-    margin: 0 0 25px;
-    background-color: #eee;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
- .queryMessage .search-query,.queryMessage .search-label{
-    font-weight:600;
-    text-transform:uppercase
-}
- .queryMessage .search-query:before,.queryMessage .search-label:before{
-    content:"\201c"
-}
- .queryMessage .search-query:after,.queryMessage .search-label:after{
-    content:"\201d"
-}
- .queryMessage a.show-more{
-float: right;
-    display:inline-block;
-    color:$(main.color);
-    text-decoration:underline;
-    margin:0 0 0 10px
-}
+
  .queryEmpty{
     font-size:13px;
     font-weight:400;
@@ -3153,24 +2986,28 @@ float: right;
     margin:0 0 25px;
     text-align:center
 }
+
  .blog-post{
     display:block;
     overflow:hidden;
     word-wrap:break-word
 }
+
 .index-post-wrap {
     position: relative;
-float: left;
+    float: left;
     width: 100%;
 }
+
 .grid-posts {
-  display: grid;
+    display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
     margin: 0;
-	padding-top: 15px;
-	padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
+
  .index-post{
     display: flex;
     flex-direction: column;
