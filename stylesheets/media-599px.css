@@ -1,1 +1,27 @@
+#parallax-menu{
+  display: none;
+  visibility: hidden;
+}
 
+#principal-menu{
+  display: none;
+  visibility: hidden;
+}
+
+.intro-image{
+  display: none;
+  visibility: hidden;
+}
+
+intro-content{
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.intro-title{
+  font-size: 30px;
+}
+
+.intro-snippet{
+  font-size: 15px;
+}
