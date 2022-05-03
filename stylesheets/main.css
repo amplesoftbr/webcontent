@@ -19,12 +19,11 @@
 }
 
 .mobile-descer{
-  visibility: hidden;
-	width: calc(100% - 40px);
+  display: none;
 }
 
 #nav.active .mobile-descer{
-  visibility: visible;
+  display: flex;
   position: absolute;
   z-index: 999999;
   top: 67px;
@@ -32,7 +31,6 @@
   height: calc(100vh - 67px);
   background: #F1F1F1;
   margin-left: -20px;
-  animation: 0.2s;
 }
 
 #nav.active .sombra-menu-mobile{
