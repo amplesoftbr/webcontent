@@ -15,7 +15,7 @@
 visibility: hidden;
 width: 0vh;
 overflow-x: hidden;
-transition: 1s;
+transition: 0.5s;
 }
 
 #nav.active .mobile-descer{
