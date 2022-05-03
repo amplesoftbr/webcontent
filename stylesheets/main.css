@@ -2605,109 +2605,13 @@ margin:30px 0 0;
 50%{background-position:50% 0}
 100%{background-position:100% 50%}
 }
- .main-slider .post-info-wrap {
-    width: 100%;
-    text-align: left;
-    overflow: hidden;
-    z-index: 5;
-    box-sizing: border-box;
-    padding:0;
-    transition: transform .5s ease;
-}
-.main-slider .owl-item.active .post-info-wrap {
-   
-}
 
- .main-slider .post-info{
-  position: relative;
-    overflow: hidden;
-    display: block;
-    z-index: 10;
-}
-
- .main-slider .post-title{
-    font-size:21px;
-    font-weight:500;
-    display:block;
-    line-height:1.5;
-    margin:0 0 5px
-}
- .main-slider .post-title a{
-    color:$(title.color);
-    display:block
-}
- .main-slider .post-title a:hover{
-    text-decoration:underline
-}
-.main-slider .post-snippet {
-    color:$(posts.text.color);
-} 
- .show-slider .no-posts{
-    position:absolute;
-    top:calc(50% - 50px);
-    left:0;
-    width:100%;
-text-align:center;
-}
-.main-slider .post-info .post-tag{
-   display: flex;
-   color: #4d4d4d;
-    font-size: 9px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    text-transform:uppercase;
-    margin-bottom:15px;
-}
- .main-slider .post-info .post-tag:hover{
-  color:$(main.color);
-}
-.main-slider .post-meta {
-    color: #aaaaaa;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    padding: 0 1px;
-}
-.main-slider .post-date {
-    font-size: 11px;
-    color: $(dark.color);
-    margin: 0;
-display: inline-block;
-float:none;
-}
-.main-slider .owl-nav{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    height:0
-}
- .main-slider .owl-prev,.main-slider .owl-next{
-    height:40px;
-    line-height:40px;
-    z-index:10;
-    border:0
-}
- .main-slider .owl-prev{
-    float:left;
-    left:-25px;
-}
- .main-slider:hover .owl-prev{
-    left:0
-}
- .main-slider .owl-next{
-    float:right;
-    right:-25px;
-}
- .main-slider:hover .owl-next{
-    right:0
-}
  .head-text{
     float:left;
     width:100%;
     text-align:center;
     margin:0;
-	line-height: 1.35;
+    line-height: 1.35;
 }
 
  .head-text .widget-title > h3{
@@ -2717,14 +2621,13 @@ float:none;
     font-weight:700;
     margin:0 0 0px
 }
+
  .head-text .widget-content{
     font-size:14px;
     margin:0
-	flex-direction: inherit;
+    flex-direction: inherit;
 }
-.project-head {
-margin:0 auto;
-}
+
  #serv-tile-wrap{
 background:#ffffff;
     display:none;
