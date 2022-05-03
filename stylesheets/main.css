@@ -136,15 +136,15 @@ display: none;
     }
 
 .row-primeira-cor{
+float: center; 
+padding: 2% 8%; 
 width: 100%;
-padding: 0 9%;
-background-color: #FFFFFF;
 }
 
 .row-segunda-cor{
+float: center; 
+padding: 2% 8%; 
 width: 100%;
-padding: 0 9%;
-background-color: #F3F5F4;
 }
 
 .descricao-produto{
@@ -569,7 +569,8 @@ padding: 0 0 0 0px;
 }
 
  .row{
-  width:1140px
+float: center; 
+width: 85%;
 
 }
 
