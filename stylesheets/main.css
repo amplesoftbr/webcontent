@@ -1,3 +1,65 @@
+ #top-bar{ 
+    background-image: url(https://1.bp.blogspot.com/-GUTgXwRhUV0/YGAkDor0AGI/AAAAAAAAKXU/VB_EXXtwjms7kFnwy2JhtdVkwp52clA_gCNcBGAsYHQ/s16000/email-bg.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    padding:20px 0 0;
+    overflow:hidden;
+    margin:0;
+    position:relative;
+}
+ .top-bar-bg{ 
+ background-color: rgba(68,63,69,0.9);
+ position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+ #top-bar .container{
+    margin:0 auto
+}
+ .top-bar-nav{
+    position:relative;
+    float:right;
+    display:block
+}
+ .top-bar-nav .widget > .widget-title{
+    display:none
+}
+ .top-bar-nav ul li{
+    float:left
+}
+ .top-bar-nav ul li > a{
+    height:30px;
+    display:block;
+    color:#fff;
+    font-size:13px;
+    font-weight:400;
+    line-height:30px;
+    margin:0 0 0 10px;
+    padding:0 5px;
+    transition:color .17s
+}
+ .top-bar-nav ul li:first-child > a{
+    padding:0 5px 0 0
+}
+ .top-bar-nav ul > li:hover > a{
+    color:$(main.color)
+}
+ .top-bar-social{
+    float:left;
+width:66.66666667%;
+    position:relative;
+    display:block;
+margin: 0;
+padding:25px 0 0;
+text-align:center;
+}
+
 #parallax-menu a{
   color: #FFF;
 }
