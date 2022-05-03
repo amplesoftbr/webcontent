@@ -13,7 +13,7 @@
   visibility: hidden;
 }
 
-intro-content{
+.intro-content{
   max-width: 100%;
   flex: 0 0 100%;
 }
