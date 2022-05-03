@@ -1,3 +1,15 @@
+.row{
+  width:100%
+}
+
+.row-primeira-cor{
+  width:100%
+}
+
+.row-segunda-cor{
+  width:100%
+}
+
 #parallax-menu{
   display: none;
   visibility: hidden;
@@ -44,8 +56,12 @@
   display: grid;
 }
 
+#main-intro{
+  height: 85vh;
+}
+
 #main-intro .widget{
-  height: 90%;
+  height: 95%;
 }
 
 .slide-in{
