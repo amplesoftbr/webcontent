@@ -412,7 +412,7 @@ a,a:visited{
     text-decoration:none
 }
 .post-body a:visited {
-color:#FFF;
+color:#000;
 }
 .clearfix{
     clear:both
@@ -422,17 +422,13 @@ color:#FFF;
     padding:0
 }
 a{
-    color:$(main.color)
+    color:#000;
 }
-a:visited {
-color:#FFF;
-}
-a:hover{
-    color:$(title.color)
-}
+
 a img{
     border:0
 }
+
 abbr{
     text-decoration:none
 }
