@@ -114,6 +114,7 @@ display: none;
   font-weight: 600;
   text-align: center;
   background-color: #FFF;
+  transition: 0.2s;
     }
 	
     .botao-vendas a:visited {
@@ -141,6 +142,7 @@ display: none;
 	margin-right: 2px;
 	font-weight: 600;
 	text-align: center;
+    transition: 0.2s;
     }
 
     .botao-cliente a:after {
@@ -199,6 +201,7 @@ border-width: 4px;
 border-color: #F4F4F4;
 background-position: center;
 background-size: cover;
+transition: 0.12s;
 }
 
 .produtos-elmgrid:hover{
@@ -243,7 +246,7 @@ border-color: #2A8BAF;
     .diferenciais-botao a:hover{
     background: #feac0e;
 	color:#FFFFFF;
-	transition: 0.1s
+	transition: 0.2s;
     }
 
 .grade-diferenciais {
@@ -830,12 +833,12 @@ position:fixed;
     margin: 12px 0 0 5px;
     border-radius: 25px;
     color: #FFF;
-	
+	transition: 0.2s;
 }
 
 .scrolling-menu ul > li > a:hover {
 background-color: #282828;
-transition: 0.2s;
+
 }
 
  #main-menu{
@@ -1562,6 +1565,14 @@ margin-top: 25px;
     margin:0;
     overflow: visible;
 }
+
+.index-post:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.2s;
+
+}
+
  .index-post .post-image-wrap{
   float: left;
     width: 100%;
