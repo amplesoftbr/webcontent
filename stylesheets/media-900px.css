@@ -45,7 +45,7 @@
       }
           
         #main-intro .widget{
-         height: 50%;
+         height: inherit;
          margin: 0 0px;
       }
 
