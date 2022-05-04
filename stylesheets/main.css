@@ -67,7 +67,7 @@
 }
 
  .top-bar-nav ul > li:hover > a{
-    color:$(main.color)
+    color:#2A8BAF;
 }
 
 .botoes-inicio{
@@ -263,7 +263,7 @@ text-align: left;
 .img-diferenciais{
 font-size: 50px;
 color: #2A8BAF;
-align: center;
+box-align: center;
 margin-top: 25px;
 }
 
@@ -301,7 +301,6 @@ align-items: end;
 font-size: 16px;
 color: #2A8BAF;
 text-transform: uppercase;
-style: bold;
 padding: 5px 0px 0px 0px;
 }
 
@@ -477,7 +476,7 @@ border-radius:2px 2px 0 0
 .sidebar .widget-content{
 float:left;
 width:100%;
-margin:0
+margin:0;
 padding: 0 0 0 0px;
 }
 
@@ -511,7 +510,7 @@ padding: 0 0 0 0px;
     font-family:'Manrope',sans-serif;
     font-size:15px;
     font-weight:400;
-    color:$(body.text.color);
+    color:#041E27;
     word-wrap:break-word;
     margin:0;
     padding:0
@@ -597,7 +596,7 @@ width: 85%;
 
  .list-label li a{
     display:block;
-    color:$(title.color);
+    color:#000;
     font-size:13px;
     font-weight:400;
     text-transform:capitalize;
@@ -607,7 +606,7 @@ width: 85%;
  .list-label li a:before{
     content:"\f105";
     float:left;
-    color:$(title.color);
+    color:#000;
     font-size:12px;
     font-weight:400;
     font-family:FontAwesome;
@@ -616,7 +615,7 @@ width: 85%;
 }
 
  .list-label li a:hover{
-    color:$(main.color)
+    color:#000;
 }
 
  .list-label .label-count{
@@ -635,7 +634,7 @@ width: 85%;
     display:block;
     height:26px;
     background-color:#fff;
-    color:$(title.color);
+    color:#000;
     font-size:12px;
     line-height:26px;
     font-weight:400;
@@ -646,7 +645,7 @@ width: 85%;
 }
 
  .cloud-label li a:hover{
-    color:$(main.color)
+    color:#2A8BAF;
 }
 
  .cloud-label .label-count{
@@ -1555,7 +1554,10 @@ margin-top: 25px;
     flex-direction: column;
     width: 100%;
     box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
-    border-radius: 10px;
+    border-radius: 23px;
+    border-color: #041E27;
+    border-style: solid;
+    border-width: 2px; 
     background: #fff;
     box-sizing: border-box;
     padding:15px;
@@ -1567,7 +1569,7 @@ margin-top: 25px;
     width: 100%;
     height: 200px;
     margin: 0;    
-    border-radius: 10px;
+    border-radius: 23px;
     overflow: hidden;
 }
  .index-post .post-image-wrap .post-image-link{
@@ -1878,14 +1880,14 @@ width:100%
     min-height: 200px;
 }
  .index-post .post-info > h2{
-    font-size:24px;
+    font-size:20px;
     color:$(title.color);
     font-weight:600;
-    line-height:1.5em;
+    line-height:1.2em;
     margin:0 0 10px
 }
  .index-post .post-info > h2 a{
-color:$(title.color);
+color:#041E27;
 }
  .post-meta{
     color:#989898;
