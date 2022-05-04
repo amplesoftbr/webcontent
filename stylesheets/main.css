@@ -19,6 +19,11 @@ grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 
+#objeto-grid-mobile{
+padding: 5px;
+background-color: #000;
+}
+
 .sombra-menu-mobile{
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%); 
