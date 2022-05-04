@@ -8,6 +8,10 @@
     grid-template-columns: repeat(3,1fr);
   }
 
+  #main-intro .widget-content{
+    top: -20px;
+
+  }
 
 
 @media screen and (min-width: 1250px){
