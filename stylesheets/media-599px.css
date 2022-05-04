@@ -13,13 +13,13 @@
 
 .row-primeira-cor{
   width:100%;
-  padding: 1% 5%;
+  padding: 1% 6%;
   box-sizing: border-box;
 }
 
 .row-segunda-cor{
   width:100%;
-	padding: 1% 5%;
+	padding: 1% 6%;
 	box-sizing: border-box;
 }
 
@@ -110,7 +110,7 @@ margin: 0;
 .titulos-inicio{
   font-size:22px;
   line-height: 1.30;
-  padding: 13px;
+  padding: 22px 0 22px 0;
   margin: 0;
 }
 
@@ -126,7 +126,7 @@ padding-top: 0;
 
 #serv-tile{
   grid-template-columns: repeat(1,1fr);
-  margin: 0 20px 0 20px;
+  margin: 0 0px 0 0px;
 }
 
 .intro-content{
