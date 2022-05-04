@@ -11,26 +11,6 @@
   --preto: ;
 }
 
-#grid-topo-mobile{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
-
-#objeto-grid-mobile{
-padding: 5px;
-background-color: #000;
-}
-
-.sombra-menu-mobile{
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%); 
-  visibility: hidden;
-  transition: 0.5s;
-}
-
 .mobile-descer{
   display: none;
 }
@@ -40,19 +20,10 @@ background-color: #000;
   position: absolute;
   z-index: 999999;
   top: 67px;
-  width: calc(100% - 40px);
+  width: 100%;
   height: calc(100vh - 67px);
   background: #FFF;
   margin-left: -20px;
-}
-
-#nav.active .sombra-menu-mobile{
-  visibility: visible;
-  position: absolute;
-  z-index: 999;
-  top: 67px;
-  width: 100vh;
-  height: calc(100vh - 67px);
 }
 
 #bt-mobile-menu{
