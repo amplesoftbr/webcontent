@@ -326,9 +326,9 @@ color: #2A8BAF;
     background-color: #feac0e;
     -moz-border-radius: 30px;
     border-radius: 30px;
-	border-color: #feac0e;
+	border-color: #fff;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 3px;
 	height:30px;
 	width: 110px;
     }
@@ -349,7 +349,7 @@ color: #2A8BAF;
 
     .modulos-botao a:hover{
     background-color: #C69A15;
-	border-color: #C69A15;
+	border-color: #c69a1588;
 	color:#FFF;
 	transition: 0.1s;
     }
