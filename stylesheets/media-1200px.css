@@ -16,6 +16,14 @@
         width: 85%;
     }
 
+    .row-primeira-cor{
+        padding: 1.5% 10%;
+    }
+
+    .row-segunda-cor{
+        padding: 1.5% 10%;
+    }
+
     #serv-tile{
         grid-template-columns: repeat(4,1fr);
     }
