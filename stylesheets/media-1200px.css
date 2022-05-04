@@ -31,16 +31,12 @@
 
     .intro-snippet{
         font-size: 17px;
-
-    }
-
-    intro-title a{
-        margin: 0;
+        margin-bottom: 35px;
 
     }
 
     .intro-content{
-        row-gap: 24px;
+        row-gap: 0px;
 
     }
 }
