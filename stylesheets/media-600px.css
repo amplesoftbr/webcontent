@@ -167,3 +167,18 @@
     justify-content: center;
     display: flex;
   }
+
+  @media screen and (min-width: 701px){
+    .grade-produtos{
+        grid-template-columns: repeat(3, 2fr);
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+
+    @media screen and (min-width: 770px){
+        .grid-posts{
+            grid-template-columns: repeat(2,1fr);
+    
+        }
+
+  }
