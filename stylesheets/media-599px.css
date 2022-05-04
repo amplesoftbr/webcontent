@@ -162,4 +162,5 @@ padding-top: 0;
   float: none;
   text-align: center;
   justify-content: center;
+  display: flex;
 }
