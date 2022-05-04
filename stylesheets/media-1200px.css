@@ -23,4 +23,24 @@
     .slide-in .pointer{
         top: 25%;
     }
+
+    .intro-title{
+        font-size: 39px;
+
+    }
+
+    .intro-snippet{
+        font-size: 17px;
+
+    }
+
+    intro-title a{
+        margin: 0;
+
+    }
+
+    .intro-content{
+        row-gap: 24px;
+
+    }
 }
