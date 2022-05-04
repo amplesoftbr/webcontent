@@ -1,1 +1,5 @@
+.grade-produtos{
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+}
 
