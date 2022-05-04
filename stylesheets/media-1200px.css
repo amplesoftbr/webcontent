@@ -1,1 +1,19 @@
+.grade-modulos{
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
+  }
+
+  .grid-posts{
+    grid-template-columns: repeat(3,1fr);
+  }
+
+
+
+@media screen and (min-width: 1250px){
+    .row{
+        float: center; 
+        width: 85%;
+        
+    }
+}
