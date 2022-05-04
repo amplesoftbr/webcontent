@@ -1,14 +1,7 @@
 :root {
-  --escura-primaria: ;
-  --escura-secundaria: ;
-  --clara-primaria: ;
-  --clara-secundaria: ;
-  --color-texto: ;
-  --cor-titulos: ;
-  --laranjado-botoes: ;
-  --laranjado-botoes-hover: ;
-  --branco: ;
-  --preto: ;
+  --cabecalho-principal: ;
+  --hover-cabecalho: ;
+  --cor-logotipo: ;
 }
 
 .mobile-descer{
@@ -328,7 +321,7 @@ color: #2A8BAF;
     border-radius: 30px;
 	border-color: #fff;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 3px;
 	height:30px;
 	width: 110px;
     }
@@ -349,7 +342,7 @@ color: #2A8BAF;
 
     .modulos-botao a:hover{
     background-color: #C69A15;
-	border-color: #4dc615;
+	border-color: #fdcb6f;
 	color:#FFF;
 	transition: 0.1s;
     }
@@ -672,14 +665,14 @@ width: 85%;
 
  .common-widget .LinkList ul li a,.common-widget .PageList ul li a{
     display:block;
-    color:$(title.color);
+    color:#000;
     font-size:13px;
     font-weight:400;
     transition:color .17s ease
 }
 
  .common-widget .LinkList ul li a:hover,.common-widget .PageList ul li a:hover{
-    color:$(main.color)
+    color:#000;
 }
 
  .common-widget .LinkList ul li:first-child,.common-widget .LinkList ul li:nth-child(2),.common-widget .PageList ul li:first-child,.common-widget .PageList ul li:nth-child(2){
@@ -729,7 +722,6 @@ width: 85%;
     float:left;
     overflow:hidden;
     display:block;
-    vertical-align:middle;
     margin:0 12px 0 0
 }
  .custom-widget .post-info{
@@ -745,12 +737,12 @@ width: 85%;
 
  .custom-widget .post-title a{
     display:block;
-    color:$(dark.color);
-    transition:color .17s
+    color:#000000;
+    transition: color 0.1s;
 }
 
  .custom-widget li:hover .post-title a{
-    color:$(main.color)
+    color:#2A8BAF;
 }
 
  .custom-widget .post-meta{
