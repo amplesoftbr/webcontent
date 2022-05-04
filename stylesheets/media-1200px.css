@@ -53,4 +53,9 @@
         font-size: 17px;
 
     }
+
+    .grade-modulos{
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+    }
 }
