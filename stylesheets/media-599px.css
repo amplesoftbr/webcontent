@@ -152,3 +152,14 @@ padding-top: 0;
   grid-template-columns: repeat(2, 2fr);
   grid-template-rows: repeat(4, 1fr);
 }
+
+.copyright-reform{
+  float: none;
+  text-align: center;
+}
+
+.top-bar-nav{
+  float: none;
+  text-align: center;
+  justify-content: center;
+}
