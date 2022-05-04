@@ -40,4 +40,13 @@
         visibility: visible;
       }
 
+       #main-intro{
+        height: 100vh;
+      }
+          
+        #main-intro .widget{
+         height: 50%;
+         margin: 0 0px;
+      }
+
 }
