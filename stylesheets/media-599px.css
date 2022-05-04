@@ -13,13 +13,13 @@
 
 .row-primeira-cor{
   width:100%;
-  padding: 1% 2%;
+  padding: 1% 5%;
   box-sizing: border-box;
 }
 
 .row-segunda-cor{
   width:100%;
-	padding: 1% 2%;
+	padding: 1% 5%;
 	box-sizing: border-box;
 }
 
@@ -152,6 +152,7 @@ padding-top: 0;
 .grade-produtos{
   grid-template-columns: repeat(2, 2fr);
   grid-template-rows: repeat(4, 1fr);
+
 }
 
 .copyright-reform{
