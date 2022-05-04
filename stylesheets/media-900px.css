@@ -3,11 +3,11 @@
     grid-template-rows: repeat(2, 1fr);
 }
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 1000px) {
     .grade-modulos{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
-
+    }
     .grade-diferenciais{
         grid-template-columns: 10% 90%;
     }
