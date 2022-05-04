@@ -1,1 +1,169 @@
-
+#bt-mobile-menu{
+    display: flex;
+  }
+  
+  .bt-menu-mobile{
+    display: flex;
+  }
+  
+  .row{
+    width:100%;
+    box-sizing: border-box;
+  }
+  
+  .row-primeira-cor{
+    width:100%;
+    padding: 1% 6.5%;
+    box-sizing: border-box;
+  }
+  
+  .row-segunda-cor{
+    width:100%;
+      padding: 1% 6.5%;
+      box-sizing: border-box;
+  }
+  
+  #parallax-menu{
+    display: none;
+    visibility: hidden;
+  }
+  
+  #principal-menu{
+    display: none;
+    visibility: hidden;
+  }
+  
+  .intro-image{
+    display: none;
+    visibility: hidden;
+  }
+  
+  .intro-content{
+    max-width: 100%;
+    flex: 0 0 100%;
+  margin: 0;
+  
+  }
+  
+  .intro-title{
+    font-size: 28px;
+  }
+  
+  .intro-action a{
+    margin: 15px 0 0;
+    width: 100%;
+      line-height: 37px;
+  }
+  
+  .bt-vamos-comecar a{
+    margin: 5px 0 0;
+    width: 100%;
+      line-height: 37px;
+  }
+  
+  .intro-snippet{
+    font-size: 15px;
+      margin-bottom: 10px;
+  }
+  
+  .slide-in .pointer{
+    top: -50%;
+  }
+  
+  .botoes-inicio{
+    display: grid;
+  }
+  
+  #main-intro{
+    height: 580px;
+  }
+  
+  #main-intro .widget{
+    height: 550px;
+      margin: 0 0px;
+  }
+  
+  .grid-posts {
+      grid-template-columns: 1fr;
+  }
+  
+  .grade-diferenciais{
+   grid-template-columns: 100%;
+   grid-template-rows: none;
+   padding-top: 0;
+  }
+  
+  .diferenciais{
+   text-align: center;
+   font-size: 16px;
+  }
+  
+  .grade-modulos{
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(5, 6fr);
+     grid-column-gap: 10px;
+     grid-row-gap: 10px;
+     padding-top: 0;
+  
+  }
+  
+  .titulos-inicio{
+    font-size:22px;
+    line-height: 1.30;
+    padding: 22px 0 22px 0;
+    margin: 0;
+  }
+  
+  #botao-vendas-online{
+  top: 200px;
+  margin: 0 0 0 -66px;
+  
+  }
+  
+  #header-wrap, .home #header-wrap, .item #header-wrap, #intro-author-wrap .container, #serv-tile-wrap .container, #footer-copyright > .container, #top-bar .container, .counter-box .container, .featured-posts, #testimonial-wrap .container, #brand-services-wrap .container, #editorial-wrap .container, .project-head{
+    box-sizing:border-box;
+    padding:0 20px
+      }
+  
+  #serv-tile{
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 0px 0 0px;
+  }
+  
+  .intro-content{
+    row-gap: 15px;
+  }
+  
+  .modulos1, .modulos2, .modulos3, .modulos4, .modulos5, .modulos6, .modulos7, .modulos8, .modulos9, .modulos10, .modulos11, .modulos12{
+    padding: 10px;
+  }
+  
+  .textos-descricao{
+    font-size: 15px;
+  }
+  
+  #serv-tile-wrap{
+    padding: 0;
+  }
+  
+  #serv-tile-wrap .container{
+    padding: 0;
+  }
+  
+  .grade-produtos{
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(4, 1fr);
+  
+  }
+  
+  .copyright-reform{
+    float: none;
+    text-align: center;
+  }
+  
+  .top-bar-nav{
+    float: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
