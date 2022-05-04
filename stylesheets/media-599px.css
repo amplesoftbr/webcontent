@@ -8,13 +8,13 @@
 
 .row{
   width:100%;
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .row-primeira-cor{
-  width:100%
-	padding: 1% 2%;
-	box-sizing: border-box;
+  width:100%;
+  padding: 1% 2%;
+  box-sizing: border-box;
 }
 
 .row-segunda-cor{
