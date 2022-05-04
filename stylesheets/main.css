@@ -285,7 +285,6 @@ grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(2, 6fr);
 grid-column-gap: 25px;
 grid-row-gap: 30px;
-padding-top: 19px;
 padding-bottom:50px;
 }
 
