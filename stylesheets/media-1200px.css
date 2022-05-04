@@ -37,6 +37,12 @@
 
     .intro-content{
         row-gap: 0px;
+        padding-right: 0;
+
+    }
+
+    .textos-descricao{
+        font-size: 17px;
 
     }
 }
