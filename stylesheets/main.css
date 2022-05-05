@@ -2034,7 +2034,7 @@ color:#2A8BAF;
 #nav-produtos.active .drop-down__menu-box{
   visibility: visible;
   opacity: 1;
-  margin-top: 72px;
+  margin-top: 68px;
 }
 
 .drop-down__item:before{
@@ -2089,5 +2089,5 @@ color:#2A8BAF;
 #nav-segmentos.active .drop-down__menu-segmentos{
     visibility: visible;
     opacity: 1;
-    margin-top: 72px;
+    margin-top: 68px;
   }
