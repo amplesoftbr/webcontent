@@ -2086,7 +2086,7 @@ color:#2A8BAF;
 
 }
 
-#nav-segmentos.active .drop-down__menu-segmentos{
+#m-segmentos.scrolling-menu:hover .drop-down__menu-segmentos{
     visibility: visible;
     opacity: 1;
     margin-top: 72px;
