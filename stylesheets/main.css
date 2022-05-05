@@ -1960,18 +1960,18 @@ color:#2A8BAF;
 .drop-down__menu-box {
     position: absolute;
     width: 256px;
-    background-color: #fff;
-    border-radius: 15px;
-  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
-     transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
- visibility: hidden;
-opacity: 0;
-  margin-top: 5px;
-  margin-left: 96px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 13px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 5px;
+    margin-left: 96px;
 }
 
 .drop-down__menu {
@@ -1998,7 +1998,7 @@ opacity: 0;
 
 .drop-down__item {
     font-size: 13px;
-    padding: 13px 0;
+    padding: 10px 0;
     text-align: left;
     font-weight: 500;
     color: #063341;
