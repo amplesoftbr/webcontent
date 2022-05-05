@@ -62,4 +62,9 @@
         grid-column-gap: 15px;
         grid-row-gap: 20px;
     }
+
+    #botao-vendas-online{
+        top: 240px;
+
+    }
 }
