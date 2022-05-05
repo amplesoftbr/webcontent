@@ -1925,3 +1925,12 @@ color:#2A8BAF;
     color: #989898;
     transition: color .17s;
 }
+
+.mini-descricao{
+    font-weight: 800;
+    color: #2A8BAF;
+    letter-spacing: 2px;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 30px;
+}
