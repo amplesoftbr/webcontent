@@ -1978,7 +1978,7 @@ color:#2A8BAF;
 
 .drop-down__menu-box {
     position: absolute;
-    width: 100%;
+    width: 689px;
     background-color: #fff;
     border-radius: 15px;
   box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
@@ -1990,6 +1990,7 @@ color:#2A8BAF;
  visibility: hidden;
 opacity: 0;
   margin-top: 5px;
+  margin-left: 12px;
 }
 
 .drop-down__menu {
