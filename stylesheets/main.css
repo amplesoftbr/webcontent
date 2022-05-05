@@ -2012,7 +2012,7 @@ color:#2A8BAF;
 }
 
 
-#m-produtos.hover .drop-down__menu-box{
+#m-produtos li:hover ul, .drop-down__menu-box.over ul
    visibility: visible;
    opacity: 1;
    margin-top: 60px;
