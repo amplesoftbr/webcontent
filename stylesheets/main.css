@@ -2005,14 +2005,11 @@ color:#2A8BAF;
     color: #3d6def;
 }
 
-
-
 .drop-down__item:last-of-type{
     border-bottom: 0;
 }
 
-
-.scrolling-menu ul > li > a:hover, .drop-down__menu-box{
+.scrolling-menu ul > li > a:hover .drop-down__menu-box{
    visibility: visible;
    opacity: 1;
    margin-top: 15px;
