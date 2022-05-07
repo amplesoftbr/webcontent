@@ -2329,6 +2329,7 @@ margin: 0 0 10px
     width: 50px;
     height: 5px;
     transition: 0.4s;
+}
 
     .bt-menu:hover{
         box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
