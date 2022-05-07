@@ -2354,15 +2354,15 @@ margin: 0 0 10px
   }
 
   .menu-mobile-content{
-    display: none;
+    visibility: hidden;
   }
 
   #menu-mobile.change .menu-mobile-content{
-    display: block;
+    visibility: visible;
     position: fixed;
     z-index: 999999999999;
     width: 100%;
-    height: 100vh - 60px;
-    background: #041E27;
+    height: 100vh;
+    background: #FFF;
 
   }
