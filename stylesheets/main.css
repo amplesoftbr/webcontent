@@ -2325,6 +2325,7 @@ margin: 0 0 10px
     left: 50%;
     transition: 0.3s;
     float: right;
+    display: none;
   }
   
   .hamburger-menu div{
