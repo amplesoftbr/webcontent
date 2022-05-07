@@ -2326,7 +2326,7 @@ margin: 0 0 10px
     cursor: pointer;
   }
   
-  .hamburger-menu div {
+  #menu-mobile.menu-open .hamburger-menu {
     width: 150px;
     padding: 0 15px;
     background: rgb(24, 0, 0);
