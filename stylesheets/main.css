@@ -2405,6 +2405,7 @@ margin: 0 0 10px
     text-align: center;
     transition: 0.2s;
     background: #2A8BAF;
+    display: flex;
 }
 
 .botao-vendas-mobile a:after {
@@ -2427,18 +2428,18 @@ margin: 0 0 10px
 .botao-clientes-mobile a {
     font-size: 13px;
     overflow: hidden;
-    color: #FFFFFF;
+    color: #FFF;
     padding: 5px 18px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    border-color: #FFF;
+    border-color: #2A8BAF;
     border-width: 2px;
     border-style: solid;
-    margin-left: 6px;
-    margin-right: 2px;
     font-weight: 600;
     text-align: center;
     transition: 0.2s;
+    background: #2A8BAF;
+    display: flex;
 }
 
 .botao-clientes-mobile a:after {
@@ -2454,11 +2455,6 @@ margin: 0 0 10px
 }
 
 .botao-clientes-mobile a:hover {
-    background: #FFF;
-    color: #000;
-}
-
-.mbt-mobile{
-    padding: 6px 0;
-
+    background: #2A8BAF;
+    color: #FFF;
 }
