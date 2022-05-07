@@ -2067,6 +2067,13 @@ color:#2A8BAF;
     margin-top: 68px;
   }
 
+#nav-mobile{
+    float: right;
+    margin-right: 52px;
+
+}
+
+
   .btn-mobile {
     position: absolute;
     width: 60px;
@@ -2078,7 +2085,7 @@ color:#2A8BAF;
   }
 
   .btn-left {
-    background-color: #333;
+    background-color: #FFF;
     position: absolute;
     height: 8px;
     width: 30px;
@@ -2089,7 +2096,7 @@ color:#2A8BAF;
   }
 
   .btn-left:before {
-    background-color: #333;
+    background-color: #FFF;
     position: absolute;
     width: 30px;
     height: 8px;
@@ -2100,7 +2107,7 @@ color:#2A8BAF;
   }
 
   .btn-left:after {
-    background-color: #333;
+    background-color: #FFF;
     position: absolute;
     width: 30px;
     height: 8px;
@@ -2111,7 +2118,7 @@ color:#2A8BAF;
   }
   
   .btn-right {
-    background-color: #333;
+    background-color: #FFF;
     position: absolute;
     height: 8px;
     width: 30px;
@@ -2122,7 +2129,7 @@ color:#2A8BAF;
   }
 
   .btn-right:before {
-    background-color: #333;
+    background-color: #FFF;
     position: absolute;
     width: 30px;
     height: 8px;
@@ -2133,7 +2140,7 @@ color:#2A8BAF;
   }
 
   .btn-right:after {
-    background-color: #333;
+    background-color: #FFF;
     position: absolute;
     width: 30px;
     height: 8px;
@@ -2169,7 +2176,7 @@ color:#2A8BAF;
     -webkit-transform: rotateZ(-45deg) scaleX(1.4) translate(-4px, 4px);
     transform: rotateZ(-45deg) scaleX(1.4) translate(-4px, 4px);
   }
-  
+
   .active .btn-right:after {
     -webkit-transform: rotateZ(45deg) scaleX(1.4) translate(-4px, -4px);
     transform: rotateZ(45deg) scaleX(1.4) translate(-4px, -4px);
