@@ -2389,3 +2389,71 @@ margin: 0 0 10px
     position: relative;
     border-bottom: 1px solid #e0e2e9;
 }
+
+.botao-vendas-mobile a {
+    font-size: 13px;
+    overflow: hidden;
+    color: #FFFFFF;
+    padding: 5px 18px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border-color: #FFF;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 6px;
+    margin-right: 2px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.botao-vendas-mobile a:after {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+}
+
+.botao-vendas-mobile a:visited {
+    color: #FFF;
+}
+
+.botao-vendas-mobile a:hover {
+    background: #FFF;
+    color: #000;
+}
+
+.botao-clientes-mobile a {
+    font-size: 13px;
+    overflow: hidden;
+    color: #FFFFFF;
+    padding: 5px 18px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border-color: #FFF;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 6px;
+    margin-right: 2px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.botao-clientes-mobile a:after {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+}
+
+.botao-clientes-mobile a:visited {
+    color: #FFF;
+}
+
+.botao-clientes-mobile a:hover {
+    background: #FFF;
+    color: #000;
+}
