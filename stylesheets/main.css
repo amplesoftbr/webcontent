@@ -2357,7 +2357,7 @@ margin: 0 0 10px
     visibility: hidden;
     z-index: 999999999999;
     width: 0%;
-    height: calc(100vh-60px);
+    height: 100vh;
     background: #FFF;
     margin-left: -20px;
     margin-top: 69px;
@@ -2368,6 +2368,6 @@ margin: 0 0 10px
   #nav-mobile.active-m .menu-mobile-content{
     visibility: visible;
     width: 100%;
-    height: calc(100vh-60px);
+    height: 100vh;
     max-width: 320px;
 }
