@@ -2357,7 +2357,7 @@ margin: 0 0 10px
     visibility: hidden;
   }
 
-  #menu-mobile.change .menu-mobile-content{
+  .change div .menu-mobile-content{
     visibility: visible;
     position: fixed;
     z-index: 999999999999;
