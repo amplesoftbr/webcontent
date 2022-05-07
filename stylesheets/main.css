@@ -2360,7 +2360,7 @@ margin: 0 0 10px
     height: 0vh;
     background: #FFF;
     margin-left: -20px;
-    transition: 0.2s;
+    transition: 0.3s;
   }
 
   #nav-mobile.active-m .menu-mobile-content{
@@ -2368,5 +2368,4 @@ margin: 0 0 10px
     width: 100%;
     height: 100vh;
     max-width: 320px;
-    min-width: 320px;
 }
