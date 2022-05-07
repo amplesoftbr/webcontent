@@ -2357,7 +2357,7 @@ margin: 0 0 10px
     display: none;
   }
 
-  .hamburger-menu.change .menu-mobile-content{
+  #menu-mobile.change .menu-mobile-content{
     display: block;
     position: fixed;
     z-index: 999999999999;
