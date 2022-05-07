@@ -2383,12 +2383,3 @@ margin: 0 0 10px
     opacity: 0;
     background: lightblue;
   }
-  
-  @media(max-width: 767px) {
-    .hamburger-menu {
-      position: absolute;
-      top: 50%;
-      left: 45%;
-      transform: translateX(-50%) translateY(-50%);
-    }
-  }
