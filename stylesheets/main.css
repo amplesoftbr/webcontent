@@ -2338,7 +2338,7 @@ margin: 0 0 10px
   }
   
   .change div:nth-child(1) {
-    transform: translateY(9px) rotate(47deg);
+    transform: translateY(8px) rotate(47deg);
     background: #43aed4;
   }
   
