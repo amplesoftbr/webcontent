@@ -2371,3 +2371,21 @@ margin: 0 0 10px
     height: 100vh;
     max-width: 320px;
 }
+
+.lista-mobile {
+    margin: 0;
+    padding: 0 13px;
+    list-style: none;
+
+}
+
+.item-mobile {
+    font-size: 13px;
+    padding: 10px 0;
+    text-align: left;
+    font-weight: 600;
+    color: #063341;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #e0e2e9;
+}
