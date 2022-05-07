@@ -2338,14 +2338,14 @@ margin: 0 0 10px
   }
   
   .change div:nth-child(1) {
-    transform: translateY(7px) rotate(47deg);
+    transform: translateY(12px) rotate(47deg);
     background-size: 400% 400%;
     background-image: linear-gradient(-45deg, #2626ff, #0d9eff, #ff0d6e, #cf0d6e);
     animation: mymove 10s linear infinite;
   }
   
   .change div:nth-child(3) {
-    transform: translateY(-17px) rotate(-48deg);
+    transform: translateY(-12px) rotate(-48deg);
     background-size: 400% 400%;
     background-image: linear-gradient(-45deg, #2626ff, #0d9eff, #ff0d6e, #cf0d6e);
     animation: myMove 10s linear infinite;
