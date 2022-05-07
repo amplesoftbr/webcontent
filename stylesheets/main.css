@@ -2355,14 +2355,12 @@ margin: 0 0 10px
 
   .menu-mobile-content{
     visibility: hidden;
-  }
-
-  #nav-mobile.active-m .menu-mobile-content{
-    visibility: visible;
-    position: fixed;
     z-index: 999999999999;
     width: 100%;
     height: 100vh;
     background: #FFF;
+  }
 
+  #nav-mobile.active-m .menu-mobile-content{
+    visibility: visible;
   }
