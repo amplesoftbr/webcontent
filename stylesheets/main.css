@@ -2330,17 +2330,23 @@ margin: 0 0 10px
     height: 5px;
     transition: 0.4s;
 
-    &:hover,
-    &:focus {
+    .bt-menu:hover{
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    }
+    
+    .bt-menu:focus {
         box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
     }
 
-    &:active {
+    .bt-menu:active {
         transform: scale(0.9);
     }
 
-    &:active,
-    &:focus {
+    .bt-menu:active{
+        outline: none;
+    }
+
+    .bt-menu:focus {
         outline: none;
     }
 
