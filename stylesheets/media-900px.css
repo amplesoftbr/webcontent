@@ -59,9 +59,9 @@
 }
 
 @media screen and (min-width: 1100px) {
-    #bt-mobile-menu{
-        display: none;
-      }
+  #nav-mobile{
+    display: none;
+  }
 
     .row-primeira-cor{
         width:100%;

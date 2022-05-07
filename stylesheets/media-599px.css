@@ -167,3 +167,8 @@ margin: 0 0 0 -66px;
   justify-content: center;
   display: flex;
 }
+
+
+#nav-mobile{
+  display: block;
+}
