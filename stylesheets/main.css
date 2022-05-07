@@ -2315,23 +2315,24 @@ margin: 0 0 10px
 }
 
 .hamburger-menu {
-    padding: 2em 0 0 2em;
-    width: 150px;
+    padding-top: 64px;
+    padding-right: 33px;
+    width: 0;
     display: block;
-    position: absolute;
+    position: initial;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     transition: .6s;
-    cursor: pointer;
+    float: right;
   }
   
   .hamburger-menu div{
-    width: 150px;
-    padding: 0 15px;
-    background: rgb(24, 0, 0);
-    height: 15px;
-    margin: 28px 0;
+    width: 46px;
+    padding: 0 3px;
+    background: #fff;
+    height: 6px;
+    margin: 9px 0;
     border-radius: 30px;
     transition: .6s;
   }
