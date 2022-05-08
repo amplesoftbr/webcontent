@@ -2389,6 +2389,7 @@ margin: 0 0 10px
     cursor: pointer;
     position: relative;
     border-bottom: 1px solid #e0e2e9;
+    overflow: hidden;
 }
 
 .botao-vendas-mobile a {
@@ -2446,11 +2447,11 @@ margin: 0 0 10px
     top: 0;
     height: 100%;
     width: 100%;
-    color: #FFF;
+    color: #000;
 }
 
 .botao-clientes-mobile a:visited {
-    color: #FFF;
+    color: #000;
 }
 
 .botao-clientes-mobile a:hover {
