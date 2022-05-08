@@ -2458,3 +2458,21 @@ margin: 0 0 10px
     background: #2A8BAF;
     color: #FFF;
 }
+
+.fundo-menu-mobile{
+    visibility: hidden;
+    z-index: 999999999;
+    width: 100%;
+    height: 100vh;
+    background: rgba(73, 73, 73, 0.384);
+    margin-left: -20px;
+    margin-top: 69px;
+    transition: 0.3s;
+    position: absolute;
+}
+
+  #nav-mobile.active-m .fundo-menu-mobile{
+    visibility: visible;
+    width: 100%;
+    height: 100vh;
+}
