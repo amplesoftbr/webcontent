@@ -2462,7 +2462,7 @@ margin: 0 0 10px
 .fundo-menu-mobile{
     visibility: hidden;
     z-index: 999999999;
-    width: 100vh;
+    width: 0vh;
     height: 100vh;
     background: rgba(73, 73, 73, 0.384);
     margin-left: -20px;
