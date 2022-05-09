@@ -2506,3 +2506,8 @@ margin: 0 0 10px
     box-shadow: 4px 0 6px rgb(73 73 73 / 37%);
     overflow: hidden;
 }
+
+.texto-dropdown a:hover{
+    color:#2A8BAF; 
+
+}
