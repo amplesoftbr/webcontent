@@ -2369,7 +2369,12 @@ margin: 0 0 10px
     margin: 0;
     padding: 0 13px;
     list-style: none;
-    overflow: hidden;
+    display: none;
+
+}
+
+#nav-mobile.active-m .lista-mobile{
+    display: block;
 
 }
 
@@ -2484,7 +2489,7 @@ margin: 0 0 10px
     position: absolute;
   }
 
-  #nav-mobile-produtos.active-m .menu-mobile-sessoes{
+#nav-mobile-produtos.active-m .menu-mobile-sessoes{
     visibility: visible;
     width: 100%;
     height: 100vh;
