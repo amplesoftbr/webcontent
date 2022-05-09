@@ -682,7 +682,7 @@ body {
 }
 
 .list-label li a:hover {
-    color: #000;
+    color: #2A8BAF;
 }
 
 .list-label .label-count {
@@ -750,7 +750,7 @@ body {
 
 .common-widget .LinkList ul li a:hover,
 .common-widget .PageList ul li a:hover {
-    color: #000;
+    color: #2A8BAF;
 }
 
 .common-widget .LinkList ul li:first-child,
