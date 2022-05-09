@@ -2509,5 +2509,5 @@ margin: 0 0 10px
 
 .texto-dropdown a:hover{
     color:#2A8BAF; 
-
+    transition: 0.2s;
 }
