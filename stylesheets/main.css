@@ -2522,8 +2522,9 @@ margin: 0 0 10px
   #nav-mobile.active-m .fundo-menu-mobile{
     display: block;
     visibility: visible;
-    width: 110vh;
+    width: -webkit-fill-available;
     height: 100vh;
+    margin-right: -25px;
 }
 
 .menu-mobile-sessoes{
