@@ -2517,6 +2517,7 @@ margin: 0 0 10px
     margin-top: 68px;
     transition: 0.5s;
     position: absolute;
+    backdrop-filter: blur(2px);
 }
 
   #nav-mobile.active-m .fundo-menu-mobile{
