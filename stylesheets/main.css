@@ -462,7 +462,7 @@ a:visited {
 }
 
 .post-body a:visited {
-
+    color: #000;
 }
 
 .clearfix {
@@ -477,7 +477,7 @@ a:visited {
 }
 
 a {
-
+    color: #000;
 }
 
 a img {
@@ -2617,4 +2617,19 @@ margin: 0 0 10px
     -moz-transition: .1s;
   }
 
-  
+  .footer-links a{
+    color: #8d8c8c;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+
+  .footer-links a:visited{
+    color: #8d8c8c;
+  }
+
+  .footer-links a:hover{
+    color: #fff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
