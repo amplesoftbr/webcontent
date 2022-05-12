@@ -2238,7 +2238,6 @@ margin: 0 0 10px
 
 .drop-down__menu {
     margin: 0;
-    padding: 0 13px;
     list-style: none;
 
 }
@@ -2261,13 +2260,24 @@ margin: 0 0 10px
 
 .drop-down__item {
     font-size: 13px;
-    padding: 10px 0;
     text-align: left;
     font-weight: 600;
     color: #063341;
     cursor: pointer;
     position: relative;
     border-bottom: 1px solid #e0e2e9;
+}
+
+.drop-down__item a{
+    font-size: 13px;
+    padding: 7px 12px;
+    text-align: left;
+    font-weight: 600;
+    color: #063341;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #e0e2e9;
+
 }
 
 .drop-down__item-icon {
