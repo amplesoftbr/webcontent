@@ -1608,7 +1608,7 @@ margin: 0
 #serv-tile {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
+    grid-gap: 18px;
 }
 
 #serv-tile .widget {
