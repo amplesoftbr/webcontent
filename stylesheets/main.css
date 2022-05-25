@@ -2613,3 +2613,23 @@ margin: 0 0 10px
     -webkit-transition: .1s;
     -moz-transition: .1s;
   }
+
+		.item-menu{
+        padding: 6px;
+        }
+        
+        .item-menu:hover{
+        background: #E7E8E9;
+        transition: 0.08s;
+        }
+        
+        .item-menu a:hover .item-menu{
+        background: #E7E8E9;
+        transition: 0.08s;
+        }
+        
+        .item-menu a{
+        padding: 6px 10px;
+        font-size: 13px;
+        font-weight: 600;
+        }
